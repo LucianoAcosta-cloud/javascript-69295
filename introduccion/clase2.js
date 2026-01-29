@@ -34,7 +34,17 @@ let num = 15;
 num ++; = 16
 num--;  = 14
 */
-for (let i = 1; i <= 10; i++) {
-  console.log("hola", i);
+
+//un sistema  q determine si pueden pasar o no
+//necisito pregunntar a cada persona su edad
+//son 30 personas en total
+/*
+for (let i = 1; i <= 30; i++) {
+    let edadPersona = Number(prompt("Por favor, ingresa tu edad:"));
+    if (edadPersona >= 18) {
+        console.log("Podes pasar al recital, sos mayor de edad");
+    } else {
+        console.log("No podes pasar al recital, sos menor de edad");
+    }  
 }
-console.log("fin del ciclo");
+*/
